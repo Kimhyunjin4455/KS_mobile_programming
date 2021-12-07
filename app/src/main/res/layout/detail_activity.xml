@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자세히 보기"/>
+
+    <Button
+        android:id="@+id/cgvUrl"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="92dp"
+        android:backgroundTint="#FFC8FF"
+        android:textColor="#3296FF"
+        android:text="CGV"
+        />
+    <Button
+        android:id="@+id/lotteUrl"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="92dp"
+        android:backgroundTint="#FFC8FF"
+        android:textColor="#3296FF"
+        android:text="롯데시네마"
+        />
+    <Button
+        android:id="@+id/megaUrl"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="92dp"
+        android:backgroundTint="#FFC8FF"
+        android:textColor="#3296FF"
+        android:text="메가박스"
+        />
+    <Button
+        android:id="@+id/inOst"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="92dp"
+        android:backgroundTint="#FFC8FF"
+        android:textColor="#3296FF"
+        android:text="국내 영화 ost(유튜브)"
+        />
+    <Button
+        android:id="@+id/worldOst"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="92dp"
+        android:backgroundTint="#FFC8FF"
+        android:textColor="#3296FF"
+        android:text="외국 영화 ost(유튜브)"
+        />
+    <Button
+        android:id="@+id/admission"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="92dp"
+        android:backgroundTint="#FFC8FF"
+        android:textColor="#3296FF"
+        android:text="영화관람료"
+        />
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#D3D3D3"
+        android:text="뒤로가기"
+        />
+
+</LinearLayout>
