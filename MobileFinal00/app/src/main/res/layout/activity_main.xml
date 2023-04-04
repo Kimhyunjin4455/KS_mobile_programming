@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/screen01"
+    android:weightSum="1"
+    >
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello guys!!\n This is my presentation"
+        android:textAlignment="center"
+        android:textColor="#B4E5FF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="20dp"
+        />
+    <View
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:id="@+id/MovieInfo"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="영화 순위 보기"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/DetailInfo"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:text="자세히 보기"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_corner2"
+        />
+    <TextView
+        android:id="@+id/explaText"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="앱 설명"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corner4"
+        android:onClick="onDialogBtnClicked"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/addMovieInfo"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="추천 영화 입력하기"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_corner3"
+        />
+    <Button
+        android:id="@+id/PopMovie"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btncustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#2196F3"
+        android:text="하반기 인기 영화"
+        />
+
+    <ImageView
+        android:id="@+id/infoIcon"
+        android:layout_marginTop="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/infoimage"
+        android:onClick="onDialogBtnClicked2"
+        />
+
+</LinearLayout>

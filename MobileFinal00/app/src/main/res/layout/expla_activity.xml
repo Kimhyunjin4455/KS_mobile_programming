@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="40dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/movieicon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="movie information"
+            android:layout_marginVertical="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요!\n본 어플은 영화와 관련된 각종 정보를 \n알 수 있는 어플입니다!! \n그리고 영화를 관람할때는 에티켓을 지켜 좋은 문화인의 자세를 유지해 주세요!!"
+            android:lineSpacingExtra="5dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal" />
+        <View
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>
